@@ -14,10 +14,12 @@ ul.pos_jobs li.jobdesc h4 { color: #555; }
 ul,li { padding: 0; margin: 0; list-style: none;}
 .pad1 { padding-top: 13px;}
 .pad2 { padding-top: 55px;}
+.pad3 { padding-bottom: 25px;}
 
 h4 { padding: 10px 0 1px 0; margin: 0; }
 p { padding: 2px 0 20px 0; margin: 0; }
 
+ul.skills h4 { padding-top: 20px; position: relative; top:11px; }
 ul.skills ul { padding-top: 9px; }
 
 ul.skills li {
