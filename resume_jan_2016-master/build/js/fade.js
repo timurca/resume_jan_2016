@@ -1,1 +1,0 @@
-$(document).ready(function(){var c=100,o=555,n=$("#buscard");$(window).bind("scroll",function(){var d=$(document).scrollTop(),r=0;c>=d?r=1:o>=d&&(r=1-d/o),n.css("opacity",r)})});
