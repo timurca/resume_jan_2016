@@ -18,9 +18,6 @@ function errorLog(error){
 }
 
 
-
-
-
 // Misc
 // Minify JS
 gulp.task('scripts', function (){
@@ -55,6 +52,7 @@ gulp.task('imagemin', function (){
 		.pipe(imagemin())
 		.pipe(gulp.dest('build/images'));
 });
+
 
 
 
