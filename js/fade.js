@@ -17,5 +17,4 @@ $(window).bind('scroll', function(){
     fading.css('opacity',opacity);
 });
 
-
 });
