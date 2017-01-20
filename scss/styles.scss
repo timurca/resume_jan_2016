@@ -3,15 +3,15 @@ body { background-image: linear-gradient(to right, #fff, #DDD); }
 a { color: blue; text-decoration: none;}
 .center {text-align:center;}
 h2 { font-weight: 300; font-size: 1.4em; margin: 0; padding: 0; }
-h4 { font-weight: 500; font-size: 1em; }
+h4 { font-weight: 500; font-size: 1em;  }
 .wd { font-weight: 400; font-size: 1.1em; color: #3a3f40; }
-ul.skills li h4 { color: #999; }
-ul.pos_jobs li.jobdesc h4 { color: #555; }
 
+ul.pos_jobs li.jobdesc h4 { color: #555; }
+article { clear: both;  }
 
 
 .r_font { font-size: 11px; } 
-ul,li { padding: 0; margin: 0; list-style: none;}
+ul,li { padding: 0; margin: 0; list-style: none; }
 .pad1 { padding-top: 13px;}
 .pad2 { padding-top: 55px;}
 .pad3 { padding-bottom: 25px;}
@@ -19,29 +19,40 @@ ul,li { padding: 0; margin: 0; list-style: none;}
 h4 { padding: 10px 0 1px 0; margin: 0; }
 p { padding: 2px 0 20px 0; margin: 0; }
 
-ul.skills h4 { padding-top: 20px; position: relative; top:11px; }
-ul.skills ul { padding-top: 9px; }
 
-ul.skills li {
-    display: inline-block;
-    padding-right: 5%;
+div.capsules_list_wrap { 
+
+    h4 { color: #999; position: relative; top: 9px; }
+
+    ul.kyle li { float: left; text-align: center; padding-right: 5%; }
+    ul.kyle ul { padding-top: 10px; }
+
+    ul.kyle ul li {
+        display: inline-block;
+        padding-right: 5%;
+        text-align: left;
+    }
+
+    ul.kyle li ul li {
+        padding: 5px 10px;
+        margin: 0 5px 9px 0;
+        border-radius: 9%;
+        border: 1px solid #e0E0E0;
+    }
+    ul.kyle li ul li a{
+        text-decoration: none;
+        color: blue;
+    }
+
+    ul.kyle li ul li:hover {
+        background: #e0E0E0;
+        border: 1px solid #CCC;
+    }
+
+
 }
 
-ul.skills li ul li {
-    padding: 5px 10px;
-    margin: 0 5px 9px 0;
-    border-radius: 9%;
-    border: 1px solid #e0E0E0;
-}
-ul.skills li ul li a{
-    text-decoration: none;
-    color: blue;
-}
 
-ul.skills li ul li:hover {
-    background: #e0E0E0;
-    border: 1px solid #CCC;
-}
 
 .border {
     border-top: 1px solid #EEEEEE;

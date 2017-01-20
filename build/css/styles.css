@@ -23,11 +23,11 @@ h4 {
   font-size: 1.1em;
   color: #3a3f40; }
 
-ul.skills li h4 {
-  color: #999; }
-
 ul.pos_jobs li.jobdesc h4 {
   color: #555; }
+
+article {
+  clear: both; }
 
 .r_font {
   font-size: 11px; }
@@ -54,29 +54,35 @@ p {
   padding: 2px 0 20px 0;
   margin: 0; }
 
-ul.skills h4 {
-  padding-top: 20px;
+div.capsules_list_wrap h4 {
+  color: #999;
   position: relative;
-  top: 11px; }
+  top: 9px; }
 
-ul.skills ul {
-  padding-top: 9px; }
-
-ul.skills li {
-  display: inline-block;
+div.capsules_list_wrap ul.kyle li {
+  float: left;
+  text-align: center;
   padding-right: 5%; }
 
-ul.skills li ul li {
+div.capsules_list_wrap ul.kyle ul {
+  padding-top: 10px; }
+
+div.capsules_list_wrap ul.kyle ul li {
+  display: inline-block;
+  padding-right: 5%;
+  text-align: left; }
+
+div.capsules_list_wrap ul.kyle li ul li {
   padding: 5px 10px;
   margin: 0 5px 9px 0;
   border-radius: 9%;
   border: 1px solid #e0E0E0; }
 
-ul.skills li ul li a {
+div.capsules_list_wrap ul.kyle li ul li a {
   text-decoration: none;
   color: blue; }
 
-ul.skills li ul li:hover {
+div.capsules_list_wrap ul.kyle li ul li:hover {
   background: #e0E0E0;
   border: 1px solid #CCC; }
 

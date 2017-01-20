@@ -27,7 +27,7 @@
 
 	.header { width: 22%; float:right; position:fixed; right: 0; border: 1px solid #CCC; background: #F5F5F5; }
 	.section { width: 96%; margin:2% auto; border: 0; }
-	.tabletwrap { width: 79%; }
+	.tablet_wrap { width: 79%; }
 	.h_textpadding { text-align: center; }
 			.width_behavior_1 { width: 100%}
 			.width_behavior_2 { width: 100%}
@@ -42,6 +42,9 @@
 	 		span.joined.rgs:after { content: "Working"; }
 
 	 		ul.pos_jobs li:nth-child(1) { display: none; } 
+
+	 		div.capsules_list_wrap ul{ width: 115%; text-align: center; }
+
 
 }
 
@@ -65,6 +68,10 @@
 	 ul.pos_jobs li:nth-child(1) { display: none; } 
 	 ul.pos_jobs li:nth-child(3) { display: none; } 
 	 span.joined span { display: none; } 
-	 span.joined.rgs:after { content: "Working"; }		
+	 span.joined.rgs:after { content: "Working"; }	
+
+
+	div.capsules_list_wrap { width: 100%; margin: 0 auto; }
+	
 
 }	

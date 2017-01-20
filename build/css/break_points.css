@@ -65,7 +65,7 @@
     width: 96%;
     margin: 2% auto;
     border: 0; }
-  .tabletwrap {
+  .tablet_wrap {
     width: 79%; }
   .h_textpadding {
     text-align: center; }
@@ -90,7 +90,10 @@
   span.joined.rgs:after {
     content: "Working"; }
   ul.pos_jobs li:nth-child(1) {
-    display: none; } }
+    display: none; }
+  div.capsules_list_wrap ul {
+    width: 115%;
+    text-align: center; } }
 
 /* MOBILE */
 @media only screen and (max-width: 479px) {
@@ -134,4 +137,7 @@
   span.joined span {
     display: none; }
   span.joined.rgs:after {
-    content: "Working"; } }
+    content: "Working"; }
+  div.capsules_list_wrap {
+    width: 100%;
+    margin: 0 auto; } }
