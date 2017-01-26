@@ -158,18 +158,21 @@
   height: 174px;
   position:relative;
   background: linear-gradient(45deg, #7fb39a 15%, #CCC 85%);
+   border-top: 1px solid #EEE;
+   border-left: 1px solid #EEE;
+   border-right: 1px solid #CCC;
 }
 
 .biz_card:before  {
   content:"";
   width:80%;
   height:8px;
-  bottom: 18px;
+  top: 150px;
   left: 13px;
   z-index: -1;
   background: #fff;
   position: absolute;
-  box-shadow: -10px 10px 20px #000;
+  box-shadow: -10px 10px 20px #333;
   -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
   -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
   -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
@@ -183,10 +186,10 @@
   z-index: -1;
   background: #fff;
   height:8px;
-  bottom: 18px;
+  top: 150px;
   right: 13px;
   position: absolute;
-  box-shadow: 10px 10px 20px #000;
+  box-shadow: 10px 10px 20px #333;
   -moz-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
   -webkit-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
   -o-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
@@ -199,6 +202,7 @@
            display: table;
            margin: 0 auto;
            width: 100%; /*Optional*/
+
          }
 .group1 .column_element1 {
         display: table-cell;
