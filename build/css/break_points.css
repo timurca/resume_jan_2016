@@ -1,1 +1,81 @@
-@media only screen and (min-width: 1025px){.header{width:25%;float:right;position:fixed;right:1px;color:#FFF;top:1px;background-image:-webkit-linear-gradient(left, #CCC, #909090);background-image:linear-gradient(to right, #CCC, #909090)}.section{width:96%;margin:2% auto;border:8px dashed #BBB}.h_textpadding{text-align:left;padding:34px 0% 0% 0%}.width_behavior_1{width:30%}.width_behavior_2{width:70%}.s_textpadding{padding-left:1.8%;padding-right:4%}.float_behavior{float:left}.r_img{width:55%;height:auto;border-radius:50%;border:3px solid #DDD}.pos_img{padding-bottom:30px;padding-left:10px}.pos_txt{padding-left:10px;padding-top:5px}.tabletonly{display:none}}@media only screen and (min-width: 1320px){.pos_txt{padding-top:10px;padding-left:20px}}@media only screen and (min-width: 1026px) and (max-width: 1124px){.pos_txt{padding:0 0 0 15px}}@media only screen and (min-width: 480px) and (max-width: 699px){.eml span{display:none}.eml::after{content:"Timur.ochakovsky @gmail.com"}}@media only screen and (min-width: 480px) and (max-width: 1024px){.header{width:22%;float:right;position:fixed;right:0;border:1px solid #CCC;background:#F5F5F5}.section{width:96%;margin:2% auto;border:0}.tablet_wrap{width:79%}.h_textpadding{text-align:center}.width_behavior_1{width:100%}.width_behavior_2{width:100%}.s_textpadding{padding-left:1.5%;padding-right:1.5%}.float_behavior{display:block}.r_img{width:100%;height:auto}.pos_img{padding:20px 0}.pos_txt{padding-bottom:20px}span.joined span{display:none}span.joined.rgs:after{content:"Working"}ul.pos_jobs li:nth-child(1){display:none}div.capsules_list_wrap ul{width:115%;text-align:center}}@media only screen and (max-width: 479px){.header{width:96%;margin:0 auto;display:block;border:0;background-image:-webkit-linear-gradient(silver, #EEE);background-image:linear-gradient(silver, #EEE)}.section{width:96%;margin:0 auto;display:block;border:0}.h_textpadding{display:inline-block;text-align:left;margin:34px 0% 0% 0%}.width_behavior_1{width:30%}.width_behavior_2{width:70%}.s_textpadding{padding:0 4%}.float_behavior{float:left}.r_img{width:100%;height:auto;border-radius:10%}.pos_img{padding-bottom:30px;padding-left:20px}.pos_txt{padding-left:20px;padding-top:7px}ul.pos_jobs li:nth-child(1){display:none}ul.pos_jobs li:nth-child(3){display:none}span.joined span{display:none}span.joined.rgs:after{content:"Working"}div.capsules_list_wrap{width:100%;margin:0 auto}}
+/* DESKTOP */
+@media only screen and (min-width: 1025px) {
+  .align_card {
+    float: right;
+    position: fixed;
+    right: 1px;
+    color: #FFF;
+    top: 1px; }
+  .section {
+    width: 96%;
+    margin: 2% auto;
+    border: 8px dashed #BBB; }
+  .s_textpadding {
+    padding-left: 1.8%;
+    padding-right: 4%; }
+  .float_behavior {
+    float: left; }
+  .tabletonly {
+    display: none; } }
+
+/* TABLET */
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .align_card {
+    float: right;
+    position: fixed;
+    right: 0;
+    border: 1px solid #CCC; }
+  .section {
+    width: 92%;
+    margin: 2% auto;
+    border: 0; }
+  .tablet_wrap {
+    width: 100%; }
+  .tablet_wrap_sm_size {
+    width: 60%; }
+  .eml span {
+    display: none; }
+  .eml::after {
+    content: " timur.ochakovsky@gmail.com"; }
+  .group1 .column_element1, .group1 .column_element2 {
+    display: block;
+    width: 100%; }
+  span.joined span {
+    display: none; }
+  span.joined.rgs:after {
+    content: "Working"; }
+  ul.pos_jobs li:nth-child(1) {
+    display: none; }
+  div.capsules_list_wrap ul {
+    width: 115%;
+    text-align: center; } }
+
+/* MOBILE */
+@media only screen and (max-width: 479px) {
+  .align_card {
+    width: 98%;
+    padding-top: 3px;
+    margin: 0 auto;
+    display: block;
+    border: 0; }
+  .section {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border: 0; }
+  .float_behavior {
+    float: left; }
+  .pos_img {
+    padding-bottom: 30px;
+    padding-left: 20px; }
+  ul.pos_jobs li:nth-child(1) {
+    display: none; }
+  ul.pos_jobs li:nth-child(3) {
+    display: none; }
+  span.joined span {
+    display: none; }
+  span.joined.rgs:after {
+    content: "Working"; }
+  div.capsules_list_wrap {
+    width: 100%;
+    margin: 0 auto; } }

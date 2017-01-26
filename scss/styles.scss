@@ -1,18 +1,26 @@
-@import "card";
+/* Reset CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { font-family:inherit; font-size:100%; font-style:inherit; font-weight:inherit; margin:0pt; outline-color:invert; outline-style:none; outline-width:0pt; list-style-type:none; border:0pt none; padding:0pt; vertical-align:baseline; } table { border-collapse:separate; border-spacing:0pt; } caption, th, td { font-weight:normal; text-align:left; vertical-align:top; } blockquote:before, blockquote:after, q:before, q:after { content:""; } blockquote, q { quotes:"" ""; } strong { font-weight:bold; } em { font-style:italic; } * { margin:0pt; padding:0pt;} header, section, footer, aside, nav, article, hgroup { display:block; margin:0; }
 
-body { background-image: linear-gradient(to right, #fff, #DDD); }
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+body { background-image: linear-gradient(to right, #fff, #DDD);  }
+
 
 a { color: blue; text-decoration: none;}
+
+
 .center {text-align:center;}
 h2 { font-weight: 300; font-size: 1.4em; margin: 0; padding: 0; }
 h4 { font-weight: 500; font-size: 1em;  }
 .wd { font-weight: 400; font-size: 1.1em; color: #3a3f40; }
 
 ul.pos_jobs li.jobdesc h4 { color: #555; }
-article { clear: both;  }
+article,section { clear: both;  }
 
 
-.r_font { font-size: 11px; } 
 ul,li { padding: 0; margin: 0; list-style: none; }
 .pad1 { padding-top: 13px;}
 .pad2 { padding-top: 55px;}
@@ -20,39 +28,6 @@ ul,li { padding: 0; margin: 0; list-style: none; }
 
 h4 { padding: 10px 0 1px 0; margin: 0; }
 p { padding: 2px 0 20px 0; margin: 0; }
-
-
-div.capsules_list_wrap { 
-
-    h4 { color: #999; position: relative; top: 9px; }
-
-    ul.kyle li { float: left; text-align: center; padding-right: 5%; }
-    ul.kyle ul { padding-top: 10px; }
-
-    ul.kyle ul li {
-        display: inline-block;
-        padding-right: 5%;
-        text-align: left;
-    }
-
-    ul.kyle li ul li {
-        padding: 5px 10px;
-        margin: 0 5px 9px 0;
-        border-radius: 9%;
-        border: 1px solid #e0E0E0;
-    }
-    ul.kyle li ul li a{
-        text-decoration: none;
-        color: blue;
-    }
-
-    ul.kyle li ul li:hover {
-        background: #e0E0E0;
-        border: 1px solid #CCC;
-    }
-
-
-}
 
 
 
@@ -74,7 +49,7 @@ ul.pos_jobs ul.whatidid li { list-style-type: circle; display:list-item; margin-
 ul li.time p { margin: 0; padding-bottom: 5px; text-align: center; }
 
 span.joined {
-	padding: 5px 7px;
+    padding: 5px 7px;
     border-radius: 5%;
     background: green;
     color: #FFF;
@@ -108,4 +83,3 @@ article img {
 .cb { width: 49px; background-position: -260px; }
 .rm { width: 49px; background-position: -312px; }
 .rgs { width: 49px; background-position: -364px; }
-

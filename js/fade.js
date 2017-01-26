@@ -2,8 +2,7 @@ $(document).ready(function() {
    
 var fadeStart=100
     ,fadeUntil=555
-    ,fading = $('#buscard')
-;
+    ,fading = $('#buscard');
 
 $(window).bind('scroll', function(){
     var offset = $(document).scrollTop()
