@@ -2,7 +2,7 @@
 /* DESKTOP */
 @media only screen and (min-width: 1025px)  {
 	
-	.header { width: 25%; float:right; position:fixed; right: 1px; color: #FFF; top: 1px; background-image: linear-gradient(to right, #CCC, #909090); }
+	.header { float:right; position:fixed; right: 1px; color: #FFF; top: 1px; }
 	.section { width: 96%; margin:2% auto; border: 8px dashed #BBB; }
 
 		.h_textpadding { text-align: left; padding: 34px 0% 0% 0%; }
@@ -11,7 +11,7 @@
 
 		.s_textpadding { padding-left:1.8%; padding-right:4%; }
 			.float_behavior { float: left;  }
-				.r_img { width: 50%; height: auto; border-radius: 50%; border:2px dashed #EEE; padding: 4px; margin-bottom: 2px; opacity: 0.8; }
+				
 				.pos_img { padding-bottom: 30px; padding-left: 10px; }
 				.pos_txt { padding-left: 10px; padding-top: 5px; }
 				.tabletonly { display: none;}
@@ -25,16 +25,16 @@
 /* TABLET */
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
 
-	.header { width: 22%; float:right; position:fixed; right: 0; border: 1px solid #CCC; background: #F5F5F5; }
+	.header { float:right; position:fixed; right: 0; border: 1px solid #CCC; background: #F5F5F5; }
 	.section { width: 96%; margin:2% auto; border: 0; }
 	.tablet_wrap { width: 79%; }
-	.h_textpadding { text-align: center; }
-			.width_behavior_1 { width: 100%}
-			.width_behavior_2 { width: 100%}
+	
 
-	.s_textpadding { padding-left: 1.5%; padding-right: 1.5%; }
-		.float_behavior { display: block; }
-			.r_img { width: 100%; height: auto;}
+	.group1 .column_element1,.group1 .column_element2 {
+        display: block;
+        width: 100%;
+    }
+
 			.pos_img { padding: 20px 0; }
 			.pos_txt { padding-bottom: 20px; }
 
@@ -53,15 +53,11 @@
 /* MOBILE */
 @media only screen and (max-width: 479px) {
 	
-	.header { width: 96%; margin:0 auto; display: block; border: 0; background-image: linear-gradient(#C0C0C0, #EEE); }
+	.header { margin:0 auto; display: block; border: 0; }
 	.section { width: 96%; margin:0 auto; display: block; border: 0;  }
-	.h_textpadding { display: inline-block; text-align: left; margin: 34px 0% 0% 0%; }
-			.width_behavior_1 { width: 30%}
-			.width_behavior_2 { width: 70%}
+	
 
-	.s_textpadding { padding: 0 4%; }
 		.float_behavior { float: left;}
-			.r_img { width: 100%; height: auto; border-radius: 10%; }
 			.pos_img { padding-bottom: 30px; padding-left: 20px; }
 			.pos_txt { padding-left: 20px; padding-top: 7px; }
 
