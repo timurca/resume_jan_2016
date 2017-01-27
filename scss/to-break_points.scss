@@ -1,3 +1,4 @@
+.visible-xs { display: none; }
 
 /* DESKTOP */
 @media only screen and (min-width: 1025px)  {
@@ -22,7 +23,7 @@
 	.tablet_wrap { width: 100%; }
 	.tablet_wrap_sm_size { width: 60%; }
 	
-	.eml span { display: none; } .eml::after { content: " timur.ochakovsky@gmail.com";} 
+/*	.eml span { display: none; } .eml::after { content: " timur.ochakovsky@gmail.com";} */
 	.group1 .column_element1,.group1 .column_element2 {
         display: block;
         width: 100%;
@@ -44,7 +45,8 @@
 /* MOBILE */
 @media only screen and (max-width: 479px) {
 	
-	.hidden-xs {display:none; }	
+	.visible-xs { display: block; }
+    .hidden-xs { display: none; }
 	.align_card { width: 98%; padding-top: 3px; margin:0 auto; display: block; border: 0; }
 	.section { width: 90%; margin:0 auto; display: block; border: 0;  }
 	

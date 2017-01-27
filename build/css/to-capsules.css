@@ -48,4 +48,6 @@ div.wrap_capsules_list ul.capsules_ul li {
 /* MOBILE */
 @media only screen and (max-width: 479px) {
   div.wrap_capsules_list ul.capsules_ul li {
-    float: none; } }
+    float: none; }
+  div.wrap_capsules_list ul.capsules_ul.mob li {
+    float: left; } }
