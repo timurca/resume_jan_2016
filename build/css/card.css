@@ -83,15 +83,16 @@
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
   .ocard .biz_card .bg {
     max-width: 180px;
-    height: 358px; }
+    height: 358px;
+    opacity: 0.93; }
   .ocard .group1 .column_element1 {
     display: block;
     width: 100%;
     text-align: center;
     vertical-align: top;
-    padding-top: 22px;
+    padding-top: 15px;
     font-size: 0.7em;
-    line-height: 20px;
+    line-height: 15px;
     letter-spacing: 0.8px;
     color: #317f40; }
   .ocard .group1 .column_element2 {
@@ -110,13 +111,14 @@
   .ocard .r_img {
     width: 38%;
     height: auto;
-    border-radius: 50%; } }
+    width: 50%; } }
 
 /* MOBILE */
 @media only screen and (max-width: 479px) {
   .ocard .biz_card .bg {
     max-width: 479px;
-    height: 174px; }
+    height: 174px;
+    opacity: 0.94; }
   .ocard .biz_card:before {
     top: 150px;
     box-shadow: -10px 10px 20px #333; }

@@ -16,7 +16,9 @@
   .float_behavior {
     float: left; }
   .tabletonly {
-    display: none; } }
+    display: none; }
+  .pad_left {
+    padding-left: 6%; } }
 
 /* TABLET */
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
@@ -52,6 +54,8 @@
 
 /* MOBILE */
 @media only screen and (max-width: 479px) {
+  .hidden-xs {
+    display: none; }
   .align_card {
     width: 98%;
     padding-top: 3px;

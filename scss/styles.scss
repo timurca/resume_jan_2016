@@ -10,24 +10,29 @@ body { background-image: linear-gradient(to right, #fff, #DDD);  }
 
 
 a { color: blue; text-decoration: none;}
-
+article,section { clear: both;  }
 
 .center {text-align:center;}
+
 h2 { font-weight: 300; font-size: 1.4em; margin: 0; padding: 0; }
-h4 { font-weight: 500; font-size: 1em;  }
+h4 { font-weight: 500; font-size: 1em; padding: 10px 0 1px 0; margin: 0; }
+h4.marginTop { padding-top: 35px; }
+h4.gray { padding-top: 25px; color: #999; }
+
+p { padding: 2px 0 20px 0; margin: 0; }
+
 .wd { font-weight: 400; font-size: 1.1em; color: #3a3f40; }
 
 ul.pos_jobs li.jobdesc h4 { color: #555; }
-article,section { clear: both;  }
 
 
-ul,li { padding: 0; margin: 0; list-style: none; }
 .pad1 { padding-top: 13px;}
 .pad2 { padding-top: 55px;}
 .pad3 { padding-bottom: 25px;}
 
-h4 { padding: 10px 0 1px 0; margin: 0; }
-p { padding: 2px 0 20px 0; margin: 0; }
+
+
+
 
 
 
@@ -36,6 +41,8 @@ p { padding: 2px 0 20px 0; margin: 0; }
     width: 100%;
     margin-top: 15px;
 }
+
+
 
 ul.pos_jobs  { display:table; margin-top: 40px; }
 ul.pos_jobs li { display: table-cell; vertical-align: top; text-align: left; }
