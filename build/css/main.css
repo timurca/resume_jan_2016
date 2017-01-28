@@ -532,6 +532,9 @@ span.total {
   font-size: 0.7em;
   color: #999; }
 
+p.status {
+  padding-top: 10px; }
+
 article img {
   border: 1px solid #F0F0F0;
   cursor: pointer;
