@@ -415,7 +415,8 @@ body {
 
 a {
   color: blue;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 article, section {
   clear: both; }
@@ -507,16 +508,18 @@ ul li.time p {
   text-align: center; }
 
 span.joined {
-  padding: 5px 7px;
-  border-radius: 5%;
-  background: green;
+  padding: 9px 7px;
+  border-radius: 13%;
+  background: #62b786;
   color: #FFF;
   font-size: 8pt;
   border: 1px dashed #fff;
-  white-space: nowrap; }
+  white-space: nowrap;
+  opacity: 0.9; }
 
 span.joined.gray {
-  background: #999; }
+  background: #999;
+  opacity: 0.5; }
 
 span.dates {
   font-weight: 400;

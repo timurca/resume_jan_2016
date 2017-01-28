@@ -15,8 +15,8 @@ html {
 body { background-image: linear-gradient(to right, #fff, #DDD);  }
 
 
-a { color: blue; text-decoration: none;}
-article,section { clear: both;  }
+a { color: blue; text-decoration: none; cursor: pointer;}
+article,section { clear: both; }
 
 .center {text-align:center;}
 
@@ -24,7 +24,6 @@ h2 { font-weight: 300; font-size: 1.4em; margin: 0; padding: 0; }
 h4 { font-weight: 500; font-size: 1em; padding: 10px 0 1px 0; margin: 0; }
 h4.marginTop { padding-top: 35px; }
 h4.gray { padding-top: 25px; color: #999; }
-
 p { padding: 2px 0 20px 0; margin: 0; }
 
 .wd { font-weight: 400; font-size: 1.1em; color: #3a3f40; }
@@ -62,15 +61,16 @@ ul.pos_jobs ul.whatidid li { list-style-type: circle; display:list-item; margin-
 ul li.time p { margin: 0; padding-bottom: 5px; text-align: center; }
 
 span.joined {
-    padding: 5px 7px;
-    border-radius: 5%;
-    background: green;
+    padding: 9px 7px;
+    border-radius: 13%;
+    background: #62b786;
     color: #FFF;
     font-size: 8pt;
     border: 1px dashed #fff;
     white-space: nowrap;
+    opacity: 0.9;
 }
-span.joined.gray { background: #999;}
+span.joined.gray { background: #999; opacity: 0.5; }
 span.dates { font-weight: 400; font-size: 0.8em; color: #555; }
 span.total { white-space: nowrap; font-weight: 400; font-size: 0.7em; color: #999; }
 
