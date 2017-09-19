@@ -83,7 +83,7 @@
 }
 
 .hide { display: none; }
-ul.courses li { line-height: 46px; }
+ul.courses li { line-height: 46px; display: block !important; }
 ul.courses li span { 
     padding: 5px 7px;
     margin: 0px 9px 7px 0;
@@ -94,5 +94,5 @@ ul.courses li span {
 }
 
 
-
+.heading-- {list-style: none !important; position: relative; left:-18px; font-weight: 400;}
 

@@ -62,13 +62,16 @@ ul li.time p { margin: 0; padding-bottom: 5px; text-align: center; }
 
 span.joined {
     padding: 9px 7px;
-    border-radius: 13%;
+    border-radius: 9%;
     background: #62b786;
     color: #FFF;
     font-size: 8pt;
-    border: 1px dashed #fff;
+    border: 1px solid #fff;
     white-space: nowrap;
-    opacity: 0.9;
+    opacity: 0.7;
+
+
+
 }
 span.joined.gray { background: #999; opacity: 0.5; }
 span.dates { font-weight: 400; font-size: 0.8em; color: #555; }

@@ -4,7 +4,7 @@
 @media only screen and (min-width: 1025px)  {
 	
 	.align_card { float:right; position:fixed; right: 1px; color: #FFF; top: 1px; }
-	.section { width: 96%; margin:2% auto; border: 8px dashed #BBB; }
+	.section { width: 96%; margin:2% auto; border: 8px dashed #BBB; border-radius:30px; }
 
 
 		.s_textpadding { padding-left:1.8%; padding-right:4%; }
@@ -13,13 +13,14 @@
 		.tabletonly { display: none; }
 
 		.pad_left { padding-left: 6%; }
+		.pad_left2 { padding-left: 3%; padding-top: 7px; }
 }
 
 /* TABLET */
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
 
 	.align_card { float:right; position:fixed; right: 0; border: 1px solid #CCC; }
-	.section { width: 92%; margin:2% auto; border: 0; }
+	.section { width: 92%; margin:2% auto; border: 0;  }
 	.tablet_wrap { width: 100%; }
 	.tablet_wrap_sm_size { width: 60%; }
 	
