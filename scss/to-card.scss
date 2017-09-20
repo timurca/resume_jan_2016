@@ -135,7 +135,7 @@
             .group1 .column_element2 a { color: #000; }            
             .group1 .column_element2 i { display: block; color: #EEE; }            
 
-                   .r_img { width: 38%; height: auto; width: 50%; }   
+                   .r_img { width: 38%; height: auto; width: 50%; border-radius: 50%; }   
 
         } 
 
@@ -188,3 +188,8 @@
 
 }
 
+
+@media only screen and (min-width: 48px) and (max-width: 395px) {
+
+ul.r_font li{ font-size:12.2px; letter-spacing: -0.2px; }
+}
