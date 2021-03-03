@@ -14,6 +14,7 @@
 
 		.pad_left { padding-left: 6%; }
 		.pad_left2 { padding-left: 3%; padding-top: 7px; }
+		p.obj { padding-right: 30%; }
 }
 
 /* TABLET */
@@ -23,6 +24,7 @@
 	.section { width: 92%; margin:2% auto; border: 0;  }
 	.tablet_wrap { width: 100%; }
 	.tablet_wrap_sm_size { width: 60%; }
+	p.obj { padding-right: 0px; }
 	
 /*	.eml span { display: none; } .eml::after { content: " timur.ochakovsky@gmail.com";} */
 	.group1 .column_element1,.group1 .column_element2 {
@@ -62,7 +64,7 @@
 
 
 	div.capsules_list_wrap { width: 100%; margin: 0 auto; }
-
+	p.obj { padding-right: 0px; }
 	
 
 }	
