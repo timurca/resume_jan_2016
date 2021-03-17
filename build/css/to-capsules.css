@@ -46,10 +46,6 @@ div.wrap_capsules_list ul.capsules_ul li ul li.first-- {
   background: none;
   border: none; }
 
-  div.wrap_capsules_list ul.capsules_ul li ul li.clearc {
-  background: none;
-  border: none; }
-
 /* DESKTOP */
 @media only screen and (min-width: 1025px) {
   div.wrap_capsules_list ul.capsules_ul li {
