@@ -579,3 +579,33 @@ h4.bspace {
 .rgs {
   width: 49px;
   background-position: -364px; }
+
+ span.vv { 
+    padding: 5px 10px;
+   
+    border-radius: 9%;
+    border: 1px solid #e0E0E0;
+    background: #FFF;
+    opacity: 0.8; } 
+
+
+ul.certs {
+  display: table; }
+
+ul.certs li {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left; } 
+
+ul.certs ul.certsin li {
+  list-style-type: circle;
+  display: list-item;
+  margin-left: 18px;
+  line-height: 35px;
+  padding-bottom: 4px; }   
+
+  h4.certsh { color:#888; display: inline; padding-right: 5px; }  
+
+  ul.certsin li span.sfan { font-size: 12px; }
+
+  span.sfan a { text-decoration: underline; }
